@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center items horizontally */
+  text-align: center; /* Center text */
+  margin-top: 20px; /* Space from top for hamburger */
+}
+
+.hamburger-menu {
+  font-size: 30px; /* Size of the hamburger icon */
+  cursor: pointer; /* Change cursor to pointer */
+  padding: 15px; /* Add padding */
+  background-color: #0e0d0d; /* Background color */
+  color: white; /* Text color */
+  position: absolute; /* Positioning */
+  top: 15px; /* Positioning from top */
+  right: 15px; /* Positioning from right */
+  border-radius: 5px; /* Rounded corners */
+  z-index: 1000; /* Ensure hamburger is above other elements */
+}
+
+.menu {
+  position: absolute; /* Positioning */
+  top: 60px; /* Positioning below the hamburger icon */
+  right: 15px; /* Positioning */
+  background-color: white; /* Background color */
+  border: 1px solid #ccc; /* Border color */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  z-index: 1000; /* Ensure menu is above other elements */
+}
+
+.menu ul {
+  list-style: none; /* Remove default list styles */
+  padding: 10px; /* Add padding */
+  margin: 0; /* Remove default margin */
+}
+
+.menu li {
+  margin: 10px 0; /* Add vertical spacing between links */
+}
+
+.menu a {
+  text-decoration: none; /* Remove underline */
+  color: #333; /* Text color */
+  padding: 10px; /* Add padding */
+  display: block; /* Make the link take up the full width */
+}
+
+.menu a:hover {
+  background-color: #f0f0f0; /* Change background on hover */
+}
+.timer {
+  font-size: 28px; /* Increase font size to 48px */
+  font-weight: bold; /* Make text bold for better visibility */
+  color:white; /* Change color as needed */
+  margin-top: 5px; 
+}

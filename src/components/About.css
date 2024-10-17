@@ -1,0 +1,26 @@
+.about-container {
+    display: flex; /* Use Flexbox for layout */
+    height: 100vh; /* Full height of the viewport */
+}
+
+.content {
+    flex: 1; /* Take up half the screen */
+    padding: 20px; /* Add some padding */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; Center content vertically */
+}
+
+.logo {
+    flex: 1; /* Take up half the screen */
+    display: flex;
+    justify-content: center; /* Center logo horizontally */
+    align-items: center; /* Center logo vertically */
+    background-color: #f0f0f0; /* Optional: Add a background color */
+    margin-top:15px;
+}
+
+.logo img {
+    max-width:80%; /* Make sure the logo is responsive */
+    max-height: 80%; /* Make sure the logo fits within the container */
+}
